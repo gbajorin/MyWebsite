@@ -1,0 +1,24 @@
+﻿{
+	language: "English",
+	abreviation: "EN",
+	strings:{
+		"About" = "About",
+		"Projects" =  "Projects",
+		"Connect" = "Connect",
+		"Copyright" = "Copyright",
+		"AboutHeader" = "Full Stack Engineer",
+		"Greeting" = "Hi, I"m Garrett.",
+		"FirstFact" = "Loyal Friend. Gamer. Engineer.",
+		"SecondFact" = "Born in Connecticut, I ",
+		"ThirdFact" = "I run to stay healthy although you will find me without my fruits and vegetables at the dinner table.",
+		"FourthFact" = "I"m experienced writing front and back end web applications.",
+		"ClickConnect" = "Click 'Connect' to get in touch today!",
+		"ConnectHeader" = "Get In Touch",
+		"SlimShady" = "My name is ",
+		"ToEmail" = " and I would like to send greetings from ",
+		"ToMessage" = "I am connecting with you ",
+		"Sincerely" = "Sincerely,",
+		"NewFriend" = "Your New Friend",
+		"ClickSend" = "Send"	
+	}
+}

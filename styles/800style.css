@@ -1,0 +1,254 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+html{
+	padding-left: 20px;
+	padding-right: 20px;
+}	
+body {
+	background-color: rgba(241, 240, 245, 0);
+	height: 100%;
+	width: 100%;
+	max-width: 1000px;
+	max-height: 500px;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+a{
+	color: black;
+  text-decoration: none;
+}
+footer{
+	font-family: 'Open Sans', sans-serif;
+  height: 150px;
+  width: 100%;
+  text-align: right;
+  line-height: 150px;
+  font-size: 12px;
+  display: table;
+  margin: 0 auto;
+}
+
+.socialMediaList{
+	display: inline-block;
+  float: left;
+  height: 150px;
+  padding-left: 25px;
+}
+
+#footerIcon{
+	padding-left: 2px;
+  padding-right: 2px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.copyRight{
+  padding-right: 25px;
+}
+
+
+/* NAVIGATION BAR
+-------------------------------------------------- */
+.navigationBar{
+  width: 100%;
+  height: 100px;
+}
+ol{
+  padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 0px;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+li{
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 210%;
+  font-weight: 100;
+  letter-spacing: .08em;
+  text-transform: none;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(90, 90, 90, 0);  
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+  text-decoration: none;
+}
+
+li:hover  {
+  border-bottom: 1px solid rgba(80, 80, 80, 1);  
+}
+
+/* ABOUT PAGE
+-------------------------------------------------- */  
+.banner{
+	width: 100%;
+	height: 75px;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  line-height: 75px;
+  font-weight: 100;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0px;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+.aboutcontainer{
+	display: inline-table;
+}
+
+.aboutInfo{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	padding-top: 20px;
+  padding-bottom: 16px;
+	min-height: 289px;
+	width: 100%;
+}
+.aboutpicture{
+	float: left;
+	padding-top: 10px;
+	min-width: 275px;
+	width: 100%;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+#uconnLink{
+	color: rgba(29, 23, 400, 0.93);
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 210%;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+	letter-spacing: 0.04em;
+}
+img{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.aboutblurb{
+	float: left;
+	padding-left: 10px;
+	width: 100%;
+}
+
+/* CONNECT PAGE
+-------------------------------------------------- */  
+.naturalLanguageForm{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 210%;
+	font-height: 100%;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+	letter-spacing: 0.04em;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	max-width:1000px;
+	padding-left: 25px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	margin-right: 25px;
+}
+
+.greetings{
+	padding-bottom: 15px;
+}
+
+.formBody{
+	padding-bottom: 15px;
+}
+
+span{
+	color: rgba(165, 164, 169, 1);
+	word-break: break-all;
+}
+
+.submitform{
+	height: 40px;
+	width:100%;
+}
+
+.emailResponse{
+  min-height: 325px;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+	font-weight: 100;
+  letter-spacing: .16em;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.message{
+	padding-top:75px;
+}
+
+button{
+	background: none;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+	letter-spacing: 0.04em;
+	padding-bottom: 2px;
+  color: black;
+  -webkit-transition: color 500ms ease;
+  -moz-transition: color 500ms ease;
+  -ms-transition: color 500ms ease;
+  -o-transition: color 500ms ease;
+  transition: color 500ms ease;
+	text-decoration: none;
+	float: right;
+  display: block;
+	padding-right: 25px;
+}
+
+button:hover  {
+  color: rgba(29, 23, 400, 0.93); 	
+}
+
+button{
+	background: none;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+	letter-spacing: 0.04em;
+	padding-bottom: 2px;
+  color: black;
+  -webkit-transition: color 500ms ease;
+  -moz-transition: color 500ms ease;
+  -ms-transition: color 500ms ease;
+  -o-transition: color 500ms ease;
+  transition: color 500ms ease;
+	text-decoration: none;
+	float: right;
+  display: block;
+	padding-right: 25px;
+}
+}

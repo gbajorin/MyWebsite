@@ -1,0 +1,24 @@
+﻿{
+	language: "Chinese",
+	abreviation: "CH",
+	strings:{
+		"About" = "大约",
+		"Projects" =  "工程",
+		"Connect" = "接",
+		"Copyright" = "版权",
+		"AboutHeader" = "全栈工程师",
+		"Greeting" = "嗨，我是加勒特。",
+		"FirstFact" = "忠实的朋友。玩家。工程师。",
+		"SecondFact" = "出生在康涅狄格州，我 ",
+		"ThirdFact" = "我运行保持健康，尽管你会发现我没有我的水果和蔬菜在餐桌上。",
+		"FourthFact" = "我有经验的写作前端和后端的Web应用程序。",
+		"ClickConnect" = "点击'连接'今天取得联系！",
+		"ConnectHeader" = "保持联系",
+		"SlimShady" = "我的名字是 ",
+		"ToEmail" = " 我想从送问候 ",
+		"ToMessage" = "我连接与你 ",
+		"Sincerely" = "真诚的，",
+		"NewFriend" = "你的新朋友",
+		"ClickSend" = "发送"
+	}
+}

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <title>Garrett Bajorin</title>
+    <base base href="/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+    <script src="controller/main.js"></script>
+    <script src="services/nlsService.js"></script>
+    <script src="services/utilitieService.js"></script>
+    <script src="controller/navigationCtrl.js"></script>
+    <script src="controller/languageCtrl.js"></script>
+    <script src="controller/aboutCtrl.js"></script>
+    <script src="controller/projectCtrl.js"></script>
+    <script src="controller/connectCtrl.js"></script>
+  </head>
+  <body>
+    <div class="navigationBarHolder"></div>
+    <div class="navigationBar" ng-controller="navigationCtrl">
+      <ol ng-style="navigationStyle">
+        <li><a href="#/about" ng-class="{active: isActive('/about') || isActive('/')}">{{About}}</a></li>
+        <li><a href="#/projects" ng-class="{active: isActive('/projects')}">{{Projects}}</a></li>
+        <li><a  href="#/connect" ng-class="{active: isActive('/connect')}">{{Connect}}</a></li>
+      </ol>
+    </div>
+    <div class="bodyContent">
+      <ng-view></ng-view>
+    </div>
+    <footer ng-controller="languageCtrl">
+      <div class="location">
+        <div class="ring"></div>
+        <a id="locId" href="https://www.google.com/maps/@42.1479045,-71.1877488,10.5z" target="_blank">{{Location}}</a>  
+      </div>
+        <div class="copyRight">
+          <a id="langSel" ng-class="{active: amISelectedLanguage('EN')}" ng-click="changeLanguage('EN')">EN</a>
+          <a id="langSel" ng-class="{active: amISelectedLanguage('CH')}" ng-click="changeLanguage('CH')">CH</a>
+          <a id="langSel" ng-class="{active: amISelectedLanguage('JP')}" ng-click="changeLanguage('JP')">JP</a>
+          <a id="langSel" ng-class="{active: amISelectedLanguage('FR')}" ng-click="changeLanguage('FR')">FR</a>
+        </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+﻿{
+	language: "Japanese",
+	abreviation: "JP",
+	strings:{
+		"About" = "約",
+		"Projects" =  "プロジェクト",
+		"Connect" = "接続します",
+		"Copyright" = "著作権",
+		"AboutHeader" = "フルスタックエンジニア",
+		"Greeting" = "こんにちは、私はギャレットよ",
+		"FirstFact" = "忠実な友人。ゲーマー。エンジニア。",
+		"SecondFact" = "コネチカットで生まれ、私 ",
+		"ThirdFact" = "あなたは夕食のテーブルで私の果物や野菜なしで私を見つけるだろうが、私は健康を維持するために実行します。",
+		"FourthFact" = "私は経験豊富な書き込みフロントとバックエンドのWebアプリケーションです。",
+		"ClickConnect" = "今日連絡を取るために「接続」をクリックしてください！",
+		"ConnectHeader" = "タッチでゲット",
+		"SlimShady" = "私の名前は ",
+		"ToEmail" = " と私はから挨拶を送りたいです ",
+		"ToMessage" = "私はあなたと接続しています ",
+		"Sincerely" = "敬具",
+		"NewFriend" = "あなたの新しい友人",
+		"ClickSend" = "送信"
+	}
+}

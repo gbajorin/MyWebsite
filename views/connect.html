@@ -1,0 +1,27 @@
+﻿<div class="banner">
+  {{ConnectHeader}}
+</div>
+<div class="naturalLanguageForm" ng-show="emailDiv">
+  <div class="greetings">
+    {{LetterGreeting}}<br>
+  </div>
+  <div class="formBody">{{SlimShady}}<span id="nameSpan" ng-Click="nameFocus()" ng-Blur="nameBlur()" ng-Style="NameStyle" contenteditable="true" spellcheck="false">{{Name}}</span>
+  {{ToEmail}}<span id="emailSpan" spellcheck="false" ng-Click="emailFocus()" ng-Blur="emailBlur()" ng-Style="EmailStyle" contenteditable="true" spellcheck="false">{{Email}}</span>.
+  {{ToMessage}}<span contenteditable="true" id="messageSpan" ng-Click="messageFocus()" ng-Blur="messageBlur()" ng-Style="MessageStyle">{{Message}}</span><br></div>
+  {{Sincerely}}<br>
+  {{NewFriend}}<br>
+</div>
+<div class="submitform" ng-show="emailDiv">
+  <div class="socialMediaList">
+    <ul class="soc">
+      <li><a class="soc-linkedin" href="https://www.linkedin.com/in/garrettbajorin" target="_blank"></a></li>
+      <li><a class="soc-github soc-icon-last" href="https://github.com/gbajorin/" target="_blank"></a></li>
+    </ul>
+  </div>
+  <button type="button" ng-click="sendEmail()"><a>{{ClickSend}}</a></button>
+</div>
+<div class="emailResponse" id="responseDiv" ng-show="responseDiv">
+  <div class="message">
+    {{Response}}
+  </div>
+</div>

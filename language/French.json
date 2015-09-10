@@ -1,0 +1,24 @@
+﻿{
+	language: "French",
+	abreviation: "FR",
+	strings:{
+		"About" = "Sur",
+		"Projects" =  "Projets",
+		"Connect" = "Relier",
+		"Copyright" = "Droit d'auteur",
+		"AboutHeader" = "Plein Ingénieur Stack",
+		"Greeting" = "Salut, je suis Garrett",
+		"FirstFact" = "Ami Loyal. Gamer. Ingénieur.",
+		"SecondFact" = "Né dans le Connecticut, je ",
+		"ThirdFact" = "Je cours à rester en bonne santé bien que vous me trouverez sans mes fruits et légumes à la table du dîner.",
+		"FourthFact" = "Je suis de retour applications web finaux expérimenté avant d'écriture et.",
+		"ClickConnect" = "Cliquez sur 'Relier' entrer en contact dès aujourd'hui!",
+		"ConnectHeader" = "Entrer En Contact",
+		"SlimShady" = "Je m'appelle ",
+		"ToEmail" = " et je tiens à envoyer des salutations à partir ",
+		"ToMessage" = "Je me connecte avec vous ",
+		"Sincerely" = "Cordialement,",
+		"NewFriend" = "Votre Ami",
+		"ClickSend" = "Envoyer"
+	}
+}
